@@ -1,12 +1,13 @@
 {
   "name": "gaceta-pdf",
   "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^22.7.1",
+    "express": "^4.19.2"
+  },
   "scripts": {
     "start": "node index.js"
-  },
-  "dependencies": {
-    "chrome-aws-lambda": "^10.1.0",
-    "puppeteer-core": "^19.7.5",
-    "express": "^4.18.2"
   }
 }
